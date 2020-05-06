@@ -1,0 +1,15 @@
+to solving the basic 6
+
+def encrypt(x):
+    f= ""
+    l=list (str(x))
+    for i in range(len(l)):
+        f= f+chr(ord(l[i])+i)
+    return 
+    And decrypt
+       def encrypt(x):
+    f= ""
+    l=list (str(x))
+    for i in range(len(l)):
+        f= f+chr(ord(l[i])-i)
+    return 
